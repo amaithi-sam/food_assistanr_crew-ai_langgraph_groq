@@ -2261,6 +2261,20 @@ typing-extensions = ">=4.7,<5"
 datalib = ["numpy (>=1)", "pandas (>=1.2.3)", "pandas-stubs (>=1.1.0.11)"]
 
 [[package]]
+name = "openapi-pydantic"
+version = "0.4.0"
+description = "Pydantic OpenAPI schema implementation"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "openapi_pydantic-0.4.0-py3-none-any.whl", hash = "sha256:8f782be72a4792bf6b5bbc4cf694fda2ca0719c0354ee6a062179982544fb5c0"},
+    {file = "openapi_pydantic-0.4.0.tar.gz", hash = "sha256:22c43e0da5f479d28e11c083d6d3492e09a6ef9e2b3201ccddbfbc8786db1ffb"},
+]
+
+[package.dependencies]
+pydantic = ">=1.8"
+
+[[package]]
 name = "opentelemetry-api"
 version = "1.24.0"
 description = "OpenTelemetry Python API"
@@ -4005,4 +4019,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<=3.13"
-content-hash = "913dff58bc5689c623589f6b3bbd3f3ec0169847131c1d0b159cb552a255b953"
+content-hash = "bb4ef2dd796ca69d1b153da2b6a6a2b7dd49f2622d72fd6ea9cd6c9520d4057a"
