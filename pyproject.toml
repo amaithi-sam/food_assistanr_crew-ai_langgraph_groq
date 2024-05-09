@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "food-assistant-crew-ai-groq"
+version = "0.1.0"
+description = ""
+authors = ["amaithi-sam <amaithichirasan.s@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<=3.13"
+crewai = "^0.28.8"
+langchain-groq = "^0.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
